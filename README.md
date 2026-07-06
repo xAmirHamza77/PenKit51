@@ -1,15 +1,22 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="penkit51 AI logo" width="180">
+<img src="assets/github-banner.png" alt="penkit51 AI — AI-Powered Penetration Testing Platform" width="100%">
 
-# penkit51 AI
+<br><br>
 
-**The open-source AI penetration testing platform with 63 deep exploitation skills, multi-agent orchestration, and cross-platform assistant support.**
+<img src="assets/logo.png" alt="penkit51 AI logo" width="96" height="96">
+
+<h1>
+  <span>penkit</span><span style="color:#ff6b35">51</span> <span style="color:#00d4aa">AI</span>
+</h1>
+
+<p><strong>The open-source AI penetration testing platform with 63 deep exploitation skills, multi-agent orchestration, and cross-platform assistant support.</strong></p>
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/Skills-63-orange.svg)](skills/)
 [![Agents](https://img.shields.io/badge/Agents-Multi--Agent-green.svg)](agents/)
 [![Platforms](https://img.shields.io/badge/Assistants-Claude%20%7C%20ChatGPT%20%7C%20Grok-purple.svg)](assistant-skills/)
+[![Brand](https://img.shields.io/badge/Brand-penkit51-00d4aa.svg)](assets/)
 
 [Features](#features) · [Quick Start](#quick-start) · [Assistant Skills](#assistant-skills) · [Skill Library](#skill-library) · [Architecture](#architecture) · [Disclaimer](#disclaimer)
 
@@ -152,7 +159,11 @@ API Security · Code Review · Mobile App · Vulnerability Assessment · Securit
 ```
 penkit51-AI/
 ├── assets/
-│   └── logo.png                 # Project logo
+│   ├── logo.png                 # App icon (512×512)
+│   ├── logo-icon.svg            # Transparent vector icon
+│   ├── github-banner.png        # README hero banner
+│   ├── social-preview.png       # Social / repo preview card
+│   └── favicon.ico              # Browser favicon set
 ├── skills/                      # 63 Agent Skills (SKILL.md)
 ├── agents/
 │   ├── orchestrator.md          # Master coordinator
@@ -199,6 +210,10 @@ python3 scripts/sanitize_names.py
 
 <div align="center">
 
-**penkit51 AI** — Forge vulnerabilities into validated findings.
+<img src="assets/logo-icon.svg" alt="" width="48" height="48">
+
+<br>
+
+**penkit<span style="color:#ff6b35">51</span> <span style="color:#00d4aa">AI</span>** — Forge vulnerabilities into validated findings.
 
 </div>
